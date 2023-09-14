@@ -11,7 +11,7 @@
 	<groupId>com.betsol.kanbanboardTask</groupId>
 	<artifactId>com.betsol.kanbanboardTask</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging> // Change this from jar to war
+	<packaging>war</packaging>
 	<name>kanbanboardTask</name>
 	<description>com.betsol.kanbanboardTask</description>
 	<properties>
@@ -43,7 +43,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		// Insert this block
 		 <dependency>spring-boot-starter-tomcat
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-tomcat</artifactId>
